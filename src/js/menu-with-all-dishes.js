@@ -8,7 +8,3 @@ const getMenuListEl = document.querySelector('.js-menu');
 const cardsMarkup = dishesCardsTemplates(dishes);
 
 getMenuListEl.insertAdjacentHTML('beforeend', cardsMarkup);
-
-// function createDisheCardsMarkup(dishes) {
-//   return dishesCardsTemplates(dishes);
-// }
